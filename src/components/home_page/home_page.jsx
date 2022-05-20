@@ -32,7 +32,7 @@ function HomePage(){
 
                         <div className="fiche_specialisation">
                             <div className='text_specialisation'>
-                                <h2>Kinésithérapie</h2>
+                                <h2>test</h2>
                                 <p>Traitement des affections osseuses, articulaires, musculaires, par des mouvements imposés combinés à des massages.</p>
                             </div>
                         </div>
