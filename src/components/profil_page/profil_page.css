@@ -1,0 +1,111 @@
+.profil_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+    border-radius: 5px;
+}
+
+.profil_button_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36rem;
+    margin: 15px;
+    border: 3px solid #005eb6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.profil_button_container_deco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36rem;
+    margin: 15px;
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#test{
+    color: red;
+    border: none;
+}
+
+#deco_btn{
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#deco_btn:hover{
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.profil_button_container h1{
+    border: none;
+}
+
+.profil_button_container p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.profil_redirection{
+    margin-bottom: 15px;
+    background-color: #1F2020;
+    border-radius: 10px;
+    width: 12rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.profil_redirection:hover{
+    margin-bottom: 15px;
+    background-color: #005eb6;
+    border-radius: 10px;
+    width: 12rem;
+    color: white;
+}
+
+.deconnexion_button_container{
+    margin-bottom: 15px;
+    background-color: #1F2020;
+    border-radius: 10px;
+    width: 12rem;
+    color: #CFC486;
+}
+
+.salutation_profil{
+    color: black;
+    text-decoration: underline;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.fiche_incomplete_error{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:840px){
+    
+    .profil_button_container{
+        width: 24rem;
+    }
+
+    .profil_button_container_deco{
+        width: 24rem;
+    }
+}
+
