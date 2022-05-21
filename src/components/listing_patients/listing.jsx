@@ -285,7 +285,7 @@ function ListingPatients(props) {
                                         <>
                                             <br/>
                                             <div className="routine_container">
-                                            {routine != [] ?
+                                            {routine.length != 0 ?
                                                 routine.map(resp => {
                                                     return(
                                                         <div key={resp.id}>  
