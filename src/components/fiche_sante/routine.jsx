@@ -25,7 +25,7 @@ function Routine(props){
             <Navbar/>
             <div className="App">
                 <h1>Voici votre routine</h1>
-                {routines.length == 0 ? 
+                {routines.length != 0 ? 
                     routines.map(routine => {
                         return(
                             <div key={routine.id} className="container_routine">
