@@ -17,7 +17,7 @@ function HomePage(){
                     <h1>Présentation</h1>
                     <div className="presentationContainer">
                         <p className='text_presentation'>
-                            Diplômé en Kinésithérapie en 1998 de l’école supérieure I.S.E.K. à Auderghem.<br/>
+                            Diplômé en Kinésithérapie en 1998 de l’école supérieure I.S.E.K à Auderghem.<br/>
                             J'ai directement enchainé avec une formation de cinq ans pour devenir Ostéopathe au C.B.O (Collège Belge d'Ostéopathie) d'où j'obtiendrai mon diplôme en 2003.<br/>
                             Situé sur Bruxelles, je peux, pour certaines circonstances, me rendre à domicile pour une première entrevue avec les patients.<br/>
                             Si vous désirez prendre rendez-vous avec moi, ce site vous permet de vous inscrire et d'avoir un suivi complet avec moi.

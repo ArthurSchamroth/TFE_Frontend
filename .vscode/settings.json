@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0a770054-99ab-4a89-a488-76e8cab21a8e/resourceGroups/EPHEC_Tfe/providers/Microsoft.Web/sites/OsteoclicBx",
+    "appService.deploySubpath": "."
+}
