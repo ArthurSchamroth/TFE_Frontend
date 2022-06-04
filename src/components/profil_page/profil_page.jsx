@@ -76,13 +76,13 @@ function Profil_Kine(){
                                 <div className="profil_button_container">
                                     <h1>Gestion des Routines</h1>
                                     <p>Gérez les Routines attribuables aux patients.</p>
-                                    <a href="/gestion_routine"><button className='profil_redirection'>Commentaires</button></a>
+                                    <a href="/gestion_routine"><button className='profil_redirection'>Gérer Routines</button></a>
                                 </div>
                             </> : 
                                 <div className="profil_button_container">
-                                    <h1>Routine(s)</h1>
-                                    <p>Visualisez vos routines.</p>
-                                    <a href="/routines"><button className='profil_redirection'>Routines</button></a>
+                                    <h1>Routine</h1>
+                                    <p>Visualisez votre routine.</p>
+                                    <a href="/routines"><button className='profil_redirection'>Routine</button></a>
                                 </div>
                             }
                         </>
