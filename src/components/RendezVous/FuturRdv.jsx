@@ -71,7 +71,7 @@ function AncienRdv(props){
                 <p className='tel_horizontal'>Afin de mieux visualiser le tableau, placez votre téléphone à l'horizontal.</p>
                 {props.username == "ArthurSchamroth" || props.username == "ThomasPenning" ?
                     null :
-                    <p style={{fontWeight: 'bold', fontSize: 20, textAlign: 'center'}}>Si vous désirez annuler exceptionnelement un rendez-vous, <br/>vous pouvez contacter Monsieur Penning via le système de messagerie afin qu'il l'annule.</p>
+                    <p style={{fontWeight: 'bold', fontSize: 20, textAlign: 'center'}}>Si vous désirez annuler exceptionnellement un rendez-vous, <br/>vous pouvez contacter Monsieur Penning via le système de messagerie afin qu'il l'annule.</p>
                 }
                 <div className="tableau_container">
                 <table id='tableau_rdv_precedents'>
